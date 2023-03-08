@@ -1,6 +1,6 @@
 '''
 Date: 2023-02-27 09:43:07
-LastEditTime: 2023-02-28 16:41:17
+LastEditTime: 2023-02-28 20:16:20
 '''
 import math
 import matplotlib.pyplot as plt
@@ -41,7 +41,7 @@ def cacluator3(n):
         ans.append(1/tmp)
     return ans
 
-
+print(math.sqrt(30))
 plt.figure(figsize=(20, 10), dpi=100)
 x_arix = [x for x in range(0, 100, 1)]
 y1 = cacluator1(100)
